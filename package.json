@@ -1,0 +1,29 @@
+{
+  "name": "creat-project-tree",
+  "version": "1.0.2",
+  "description": "生成项目目录结构",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "bin": {
+    "creatTree": "./index.js"
+  },
+  "keywords": [
+    "project",
+    "tree"
+  ],
+  "author": "weijie",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.0.0"
+  },
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.0",
+    "nrm": "^1.2.5",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.4"
+  }
+}
